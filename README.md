@@ -29,6 +29,6 @@ Add the lein-swank-autoconnect hook/dependency to your Leiningen project:
 	  :description "FIXME: write"
 	  :hooks [leiningen.hooks.swank-autoconnect]
 	  :dependencies [[org.clojure/clojure "1.2.0"] [org.clojure/clojure-contrib "1.2.0"]]
-	  :dev-dependencies [[lein-swank-autoconnect "1.0.0-SNAPSHOT"]
+	  :dev-dependencies [[lein-swank-autoconnect "1.0.0"]
           		     [swank-clojure "1.2.1"]])
 		     
